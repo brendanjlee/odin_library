@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>My Reading List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>My Reading List</h1>
+            <p>This is a project for The Odin Project in which I have to make a library using Object Constructors and LocalStorage. You can also view the Github repository of this project.</p>
+        </div>
+        <div class="form-control">
+            <form class="book-form" id="book-form">
+                <label for="book-title">Book Title
+                    <input type="text" id="book-title" required>
+                </label>
+                <label for="book-author">Author
+                    <input type="text" id="book-author" required>
+                </label>
+                <label for="book-pages">Number of Pages
+                    <input type="number" id="book-pages" required>
+                </label>
+                <label for="have-read">Have Read
+                    <input type="checkbox" id="have-read" value="Read">
+                </label>
+            </form>
+            <button type="submit" form="book-form">Submit</button>
+        </div>
+        <div class="table-control">
+            <table class="book-table">
+                <tr>
+                    <th>Book title</th>
+                    <th>Author</th>
+                    <th>Number of Pages</th>
+                    <th>Finished Reading</th>
+                </tr>
+                <tr>
+                    <td>Harry Potter</td>
+                    <td>JK Rowling</td>
+                    <td>399</td>
+                    <td>Read</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
